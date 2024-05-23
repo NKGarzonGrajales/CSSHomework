@@ -1,0 +1,118 @@
+/* Margin and padding reset */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+figure,
+figcaption,
+blockquote,
+fieldset,
+pre,
+hr,
+form,
+table,
+th,
+td,
+input,
+textarea,
+button,
+select,
+optgroup,
+option,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Typography reset */
+
+html {
+    font-size: 100%;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+/* List reset */
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/* Anchor reset */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Button reset */
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+/* Form element reset */
+
+input,
+textarea,
+select,
+button {
+    font: inherit;
+    color: inherit;
+}
+
+
+/* Tables reset */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+
+/* Image reset */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}

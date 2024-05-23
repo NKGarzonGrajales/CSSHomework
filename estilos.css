@@ -1,0 +1,75 @@
+        .fondo {
+            background-color: rgb(240, 234, 234);
+        }
+        
+        .title {
+            font-size: 3em;
+            color: rgb(3, 70, 3);
+            font-style: italic;
+        }
+        
+        .miTexto {
+            font-style: oblique;
+            font-size: larger;
+        }
+        
+        .img1 {
+            width: 250px;
+            padding: 1px 25em 1px 30em;
+            border-radius: 5%;
+            margin: 2em;
+            align-items: center;
+        }
+        
+        .subtitulos {
+            font-size: 20px;
+            color: rgb(19, 131, 103);
+        }
+        
+        .logo {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .cards {
+            border: 2px solid black;
+            width: fit-content;
+            padding: 1px 1em 2px 1em;
+            border-radius: 10%;
+            margin: 3em;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            align-items: center;
+        }
+        
+        .cards:hover {
+            background-color: rgb(161, 84, 84);
+        }
+        
+        #principal {
+            font-size: 5em;
+        }
+        
+        #titulos {
+            /* border: 2px solid black;*/
+            width: 65vw;
+            margin: auto;
+            padding: 3em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #cards-container {
+            background-color: rgb(168, 164, 140);
+            width: 60vw;
+            margin: auto;
+            margin-top: 1.5em;
+            border: 5px solid rgb(105, 29, 29);
+            border-radius: 4.6%;
+            padding: 2em;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
